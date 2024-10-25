@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "production ready professional js backend in node, express & mongoDB",
   "type": "module",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
@@ -16,5 +16,10 @@
   "devDependencies": {
     "nodemon": "^3.1.7",
     "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
   }
 }
