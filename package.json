@@ -2,14 +2,18 @@
   "name": "professional-backend",
   "version": "1.0.0",
   "description": "production ready professional js backend in node, express & mongoDB",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Javascript",
     "Backend"
   ],
   "author": "Sumit",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
